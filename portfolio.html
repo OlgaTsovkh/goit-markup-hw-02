@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="header">
-            <a class="logo" href="/">WebStudio</a>
-            <ul>
-                <li clas="header-nav"> <a href="/">Студия</a>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="logo link" href="/">Web<span>Studio</span></a>
+            <ul class="menu list">
+                <li class="menu-item"> <a class="menu-link link" href="/">Студия</a>
                 </li>
     
-                <li class=header-nav></li>> <a href="./portfolio.html">Портфолио</a>
+                <li class="menu-item"> <a class="menu-link link" href="./portfolio.html"> Портфолио </a>
                 </li>
     
-                <li class=header-nav> <a href="/">Контакты</a>
+                <li class="menu-item"> <a class="menu-link link" href="/">Контакты</a>
                 </li>
             </ul>
         </nav>
     
-        <ul>
-            <li class="header-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="header-phone"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="menu list">
+            <li class="header-mail"><a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-phone"><a class="phone-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     
     </header>
@@ -32,17 +36,17 @@
     <main>
         <section>
             <h1 class="portfolio">Портфолио</h1>
-            <ul>
-                <li class="nav-btn"> <button type="button">Все</button> </li>
-                <li class="nav-btn"> <button type="button">Веб-сайты</button> </li>
-                <li class="nav-btn"> <button type="button">Приложения</button> </li>
-                <li class="nav-btn"> <button type="button">Дизайн</button></li>
-                <li class="nav-btn"> <button type="button">Маркетинг</button></li>
+            <ul class="navigation list">
+                <li class="nav-element"> <button class="nav-btn" type="button">Все</button> </li>
+                <li class="nav-element"> <button class="nav-btn" type="button">Веб-сайты</button> </li>
+                <li class="nav-element"> <button class="nav-btn" type="button">Приложения</button> </li>
+                <li class="nav-element"> <button class="nav-btn" type="button">Дизайн</button></li>
+                <li class="nav-element"> <button class="nav-btn" type="button">Маркетинг</button></li>
             </ul>
         </section>
         <section>
-            <h2 class="projects">Наші проекти</h2>
-            <ul class="projects-list">
+            <h2 class="projects">Наши проекты</h2>
+            <ul class="projects-list list">
                 <li class="projects-list-item">
                     <img src="./images/portfolio/technokriak.jpg" alt="Страница веб-сайта проекта Технокряк" width="370" height="294">
                     <h3>Технокряк</h3>
@@ -50,7 +54,7 @@
                 </li>
                 <li class="projects-list-item">
                     <img src="./images/portfolio/basketball-poster.jpg" alt="Игроки команд играют в баскетбол" width="370" height="294">
-                    <h3>Постер <span lang="en">New Orlean vs Golden Star</span> </h3>
+                    <h3>Постер<span lang="en">New Orlean vs Golden Star</span> </h3>
                     <p>Дизайн</p>
                 </li>
                 <li class="projects-list-item">
@@ -97,20 +101,18 @@
     </main>
 
     <footer class="footer">
-        <a class="logo" href="/">WebStudio</a>
+        <a class="logo link" href="/">Web<span>Studio</span></a>
         <address>
-            <ul>
-    
-                <li class="footer-location"> <a href="https://goo.gl/maps/r5K1gxjUBZvfCBvk8">г. Киев, пр-т Леси Украинки,
-                        26</a>
+            <ul class="main-contact list link">
+                <li class="footer-location"> <a class="footer-location-link" href="https://goo.gl/maps/r5K1gxjUBZvfCBvk8">г.
+                        Киев, пр-т Леси Украинки, 26</a>
                 </li>
     
-                <li class="footer-mail"> <a href="mailto:info@example.com">info@example.com</a>
+                <li class="footer-mail"> <a class="footer-mail-link" href="mailto:info@example.com">info@example.com</a>
                 </li>
     
-                <li class="footer-phone"> <a href="tel:+380991111111">+38 099 111 11 11</a>
+                <li class="footer-phone"> <a class="footer-phone-link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
-    
             </ul>
         </address>
     </footer>

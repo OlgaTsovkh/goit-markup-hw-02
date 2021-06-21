@@ -1,0 +1,245 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*=====================LOGO=======================*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.header .logo span {
+  color: #000000;
+}
+
+.footer .logo span {
+  color: #ffffff;
+}
+/*========================MENU=====================*/
+
+.header {
+  background: #ffffff;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
+
+.mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196f3;
+}
+
+.phone-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.phone-link:hover,
+.phone-link:focus {
+  color: #2196f3;
+}
+
+/*=====================HERO========================*/
+
+.hero {
+  background: #2f303a;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #188ce8;
+}
+
+/*======================ADVANTAGES====================*/
+
+.advantages-list-item > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.advantages-list-item > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*========================PERFORMANS===============*/
+
+.performans-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/*=========================TEAM=====================*/
+
+.our-team {
+  background: #f5f4fa;
+}
+
+.our-team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team-list-item {
+  background: #ffffff;
+}
+
+.our-team-list-item > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  /*text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.our-team-list-item > p {
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*========================FOOTER====================*/
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-location-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail-link,
+.footer-phone-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*=====================PORTFOLIO======================*/
+/*=====================NAVIGATION====================*/
+
+.nav-btn {
+  font: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.nav-btn:focus,
+.nav-btn:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.project-list-item > h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-list-item > p {
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
