@@ -1,3 +1,11 @@
+:root {
+  --accent-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-letter-spacing: 0.03em;
+  --main-font-size: 14px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -12,13 +20,13 @@ body {
 
 /*=====================LOGO=======================*/
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Oleo Script", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--accent-color);
 }
 .header .logo span {
   color: #000000;
@@ -35,41 +43,41 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .mail-link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .mail-link:hover,
 .mail-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .phone-link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .phone-link:hover,
 .phone-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*=====================HERO========================*/
@@ -95,7 +103,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
   cursor: pointer;
 }
 
@@ -108,22 +116,21 @@ body {
 
 .advantages-list-item > h3 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .advantages-list-item > p {
-  font-weight: 400;
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.71;
   /* or 171% */
 
-  letter-spacing: 0.03em;
-  color: #757575;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--secondary-text-color);
 }
 
 /*========================PERFORMANS===============*/
@@ -133,9 +140,8 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--main-text-color);
 }
 
 /*=========================TEAM=====================*/
@@ -149,8 +155,8 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--main-text-color);
 }
 .our-team-list-item {
   background: #ffffff;
@@ -163,9 +169,8 @@ body {
   /* identical to box height */
 
   /*text-align: center; */
-  letter-spacing: 0.03em;
-
-  color: #212121;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--main-text-color);
 }
 
 .our-team-list-item > p {
@@ -174,8 +179,8 @@ body {
   /* identical to box height */
 
   /*text-align: center;*/
-  letter-spacing: 0.03em;
-  color: #757575;
+  letter-spacing: var(--main-letter-spacing);
+  color: var (--secondary-text-color);
 }
 
 /*========================FOOTER====================*/
@@ -185,22 +190,22 @@ body {
 }
 
 .footer-location-link {
+  font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.71;
   /* or 171% */
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   color: #ffffff;
 }
 .footer-mail-link,
 .footer-phone-link {
+  font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 1.71;
   /* or 171% */
-
-  letter-spacing: 0.03em;
-
+  letter-spacing: var(--main-letter-spacing);
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -215,14 +220,14 @@ body {
   /* identical to box height, or 162% */
 
   /*text-align: center;*/
-  letter-spacing: 0.03em;
-  color: #212121;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--main-text-color);
 }
 
 .nav-btn:focus,
 .nav-btn:hover {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
@@ -232,15 +237,13 @@ body {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .project-list-item > p {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
+  letter-spacing: var(--main-letter-spacing);
+  color: var(--secondary-text-color);
 }
