@@ -213,13 +213,29 @@ body {
   background: var(--footer-bgr);
 }
 
-.footer-location-link {
+.footer-link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--main-font-size);
+  line-height: 1.71;
+  letter-spacing: var(--main-letter-spacing);
+}
+
+.footer-location {
+  color: var(--accent-content-color);
+}
+
+.footer-contact {
+  color: var(--footer-link-color);
+}
+
+/*.footer-location-link {
   font-weight: 400;
   font-style: normal;
   font-size: var(--main-font-size);
   line-height: 1.71;
   /* or 171% */
-  letter-spacing: var(--main-letter-spacing);
+/*letter-spacing: var(--main-letter-spacing);
   color: var(--accent-content-color);
 }
 .footer-contact-link {
@@ -228,9 +244,9 @@ body {
   font-size: var(--main-font-size);
   line-height: 1.71;
   /* or 171% */
-  letter-spacing: var(--main-letter-spacing);
+/*letter-spacing: var(--main-letter-spacing);
   color: var(--footer-link-color);
-}
+} */
 
 /*=====================PORTFOLIO======================*/
 /*=====================NAVIGATION====================*/
