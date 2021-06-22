@@ -50,7 +50,31 @@ body {
   color: var(--accent-content-color);;
 }
 
-.menu-link {
+.header-link {
+  font-weight: 500;
+  font-size: var(--main-font-size);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-link:focus,
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.navigation {
+  color: var(--main-text-color);
+}
+
+.contacts {
+  color: var(--secondary-text-color);
+}
+
+.header-link.current {
+  color: var(--accent-color);
+}
+
+/*.menu-link {
   font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.14;
@@ -78,7 +102,7 @@ body {
 .header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--accent-color);
-}
+}*/
 
 /*=====================HERO========================*/
 
