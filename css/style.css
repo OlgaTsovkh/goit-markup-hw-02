@@ -2,8 +2,15 @@
   --accent-color: #2196f3;
   --main-text-color: #212121;
   --secondary-text-color: #757575;
+  --accent-content-color: #ffffff;
+  --header-logo-color: #000000;
   --main-letter-spacing: 0.03em;
   --main-font-size: 14px;
+  --hero-bgr: #2f303a;
+  --focus-hero-btn-bgr:#188ce8;
+  --our-team-bgr: #f5f4fa;
+  --footer-bgr: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -16,6 +23,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 /*=====================LOGO=======================*/
@@ -28,17 +36,18 @@ body {
   letter-spacing: var(--main-letter-spacing);
   color: var(--accent-color);
 }
+
 .header .logo span {
-  color: #000000;
+  color: var(--header-logo-color);
 }
 
 .footer .logo span {
-  color: #ffffff;
+  color: var(--accent-content-color);
 }
 /*========================MENU=====================*/
 
 .header {
-  background: #ffffff;
+  color: var(--accent-content-color);;
 }
 
 .menu-link {
@@ -54,7 +63,11 @@ body {
   color: var(--accent-color);
 }
 
-.mail-link {
+.menu-link.current {
+  color: var(--accent-color); 
+}
+
+.header-contact-link {
   font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.14;
@@ -62,28 +75,15 @@ body {
   color: var(--secondary-text-color);
 }
 
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--accent-color);
-}
-
-.phone-link {
-  font-weight: 500;
-  font-size: var(--main-font-size);
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
-
-.phone-link:hover,
-.phone-link:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: var(--accent-color);
 }
 
 /*=====================HERO========================*/
 
 .hero {
-  background: #2f303a;
+  background: var(--hero-bgr);
 }
 
 .hero-text {
@@ -93,7 +93,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--accent-content-color);
 }
 
 .hero-btn {
@@ -102,14 +102,14 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--accent-content-color);
   background: var(--accent-color);
   cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #188ce8;
+  background: var(--focus-hero-btn-bgr);
 }
 
 /*======================ADVANTAGES====================*/
@@ -147,7 +147,7 @@ body {
 /*=========================TEAM=====================*/
 
 .our-team {
-  background: #f5f4fa;
+  background: var(--our-team-bgr);
 }
 
 .our-team-header {
@@ -159,10 +159,10 @@ body {
   color: var(--main-text-color);
 }
 .our-team-list-item {
-  background: #ffffff;
+  background: var(--accent-content-color);
 }
 
-.our-team-list-item > h3 {
+.our-team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -173,7 +173,7 @@ body {
   color: var(--main-text-color);
 }
 
-.our-team-list-item > p {
+.our-team-description {
   font-size: 16px;
   line-height: 1.19;
   /* identical to box height */
@@ -186,7 +186,7 @@ body {
 /*========================FOOTER====================*/
 
 .footer {
-  background: #2f303a;
+  background: var(--footer-bgr);
 }
 
 .footer-location-link {
@@ -196,17 +196,16 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: var(--main-letter-spacing);
-  color: #ffffff;
+  color: var(--accent-content-color);
 }
-.footer-mail-link,
-.footer-phone-link {
+.footer-contact-link {
   font-weight: 400;
   font-style: normal;
   font-size: var(--main-font-size);
   line-height: 1.71;
   /* or 171% */
   letter-spacing: var(--main-letter-spacing);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-color);
 }
 
 /*=====================PORTFOLIO======================*/
@@ -226,7 +225,7 @@ body {
 
 .nav-btn:focus,
 .nav-btn:hover {
-  color: #ffffff;
+  color: var(--accent-content-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
