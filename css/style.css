@@ -7,7 +7,7 @@
   --main-letter-spacing: 0.03em;
   --main-font-size: 14px;
   --hero-bgr: #2f303a;
-  --focus-hero-btn-bgr:#188ce8;
+  --focus-hero-btn-bgr: #188ce8;
   --our-team-bgr: #f5f4fa;
   --footer-bgr: #2f303a;
   --footer-link-color: rgba(255, 255, 255, 0.6);
@@ -47,7 +47,7 @@ body {
 /*========================MENU=====================*/
 
 .header {
-  color: var(--accent-content-color);;
+  color: var(--accent-content-color);
 }
 
 .header-link {
@@ -254,7 +254,7 @@ body {
   cursor: pointer;
 }
 
-.projects-list-item > h3 {
+.projects-list-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -263,12 +263,10 @@ body {
   color: var(--main-text-color);
 }
 
-.projects-list-item > p {
+.projects-list-descr {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: var(--main-letter-spacing);
   color: var(--secondary-text-color);
 }
-
-
